@@ -1,0 +1,21 @@
+
+/* Header */
+header {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  border-bottom: solid 1px grey;
+  background-color: white;
+  height: 64px;
+}
+
+header .content {
+  display: flex;
+  align-items: center;
+}
+
+header .logo {
+  padding-top: 16px;
+  padding-left: : 24px;
+
+}
