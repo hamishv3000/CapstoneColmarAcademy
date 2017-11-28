@@ -1,8 +1,29 @@
+html {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  overflow: scroll;
+}
+
+body {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 /* Header */
 header {
   width:100%;
-	height: 64px;
+	height: 4rem;
   display: flex;
 }
 
@@ -44,8 +65,6 @@ header .signinarea {
 
 .learn {
 	width: 100%;
-	height: auto;
-	border: 1px solid black;
 	background-color: lightgrey;
 	display: flex;
 }
@@ -75,8 +94,6 @@ header .signinarea {
 
 .start p {
   font-size: 1.9rem;
-  /*margin-top: 1rem;
-  margin-bottom: 1rem;*/
 }
 
 .here {
@@ -90,18 +107,18 @@ header .signinarea {
   text-align: center;
 }
 
-.box3 {
+/* University Section*/
+.uni {
 	width:100%;
 	height: auto;
-  border: 1px solid black;
-	background-color: green;
+	background-color: lightblue;
 	display: flex;
+  flex: 1;
 }
 
-.box3a {
+.practising {
   width: 60%;
   height:auto;
-  background-color: lightblue;
   margin-top: 32px;
   margin-right: 24px;
   margin-bottom: 32px;
@@ -109,76 +126,105 @@ header .signinarea {
   justify-content: center;
 }
 
-.box3b {
+.practising h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  padding-top: 32px;
+  padding-bottom: 24px;
+}
+
+#quote {
+  font-size: 2.1rem;
+}
+#author {
+  font-size: 1rem;
+}
+.information {
   width: 40%;
   height:auto;
-  background-color: yellow;
   margin-top: 32px;
   margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
 }
 
-/*.box3bi {
+.orientation {
   width: 100%;
-  height:100%;
-  background-color: blue;
+  height:auto;
+  display: flex;
 }
 
-.box3bii {
-  width: 100%;
-  height: 100%;
-  background-color: red;
+.info {
+  width: 65%;
+  justify-content: center;
 }
 
-.box3biii {
-  width: 100%;
-  height: 100%;
-  background-color: purple;
-}*/
+.info h3 {
+  font-size: 2.5rem;
+  padding-bottom: 8px;
+}
 
-.box4 {
+.info p {
+  font-size: 1.5rem
+}
+
+.info a {
+  font-size: 1.5rem;
+}
+
+#information1 {
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+}
+#information2 {
+  padding: 1rem;
+}
+
+.campus {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.guest {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+/* Courses Section */
+.courses {
   width:100%;
-	height: 500px;
+	height: auto;
 	background-color: lightgrey;
-	border: 1px solid black;
 	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
-footer {
+.courses h1 {
+  padding-top: 2rem;
+  font-size: 1.75rem;
+}
+
+.courses img {
+  height: auto;
+}
+
+.coursetype {
+  width: auto;
+  height: auto;
+  padding: 2rem 4.5rem;
+  display: flex;
+}
+
+.software, .Computerart, .design {
+  background-color: white;
+}
+/*footer {
   width: 100%;
   height 64px;
   background-color: green;
-}
-/*header {
-  margin: auto;
-  width: 100%;
-  height: 64px;
-  border-bottom: solid 1px grey;
-  background-color: white;
-
-}
-
-header .content {
-  display: flex;
-  align-items: center;
-}
-
-header .logo {
-  padding-top: 16px;
-  padding-left: : 24px;
-
-}
-
-.sign {
-  display: inline;
-  padding-right: 16px;
-}*/
-
-/* Learn Section */
-/*.learn {
-  width: 100%;
-  background-color: grey;
-}
-
-.banner {
-  padding: 32px 24px;
 }*/
