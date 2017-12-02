@@ -206,7 +206,7 @@ header .signinarea {
 
 .courses h1 {
   padding-top: 2rem;
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
 
 .courses img {
@@ -221,8 +221,28 @@ header .signinarea {
   display: flex;
   flex-wrap: wrap;
 }
+ #coursetype {
+   padding-top: 1rem;
+   padding-left: 1rem;
+   font-size: 1.5rem;
+   text-align: left;
+ }
+#courses {
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  text-align:left;
+}
 
-.software, .Computerart, .design, .data, .business, .marketing {
+#type {
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+ .software, .computerart, .data, .business {
+   padding-right: 2rem;
+ }
+.software, .computerart, .design, .data, .business, .marketing {
   background-color: white;
 }
 /*footer {
