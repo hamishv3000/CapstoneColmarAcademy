@@ -216,11 +216,13 @@ header .signinarea {
 .coursetype {
   width: auto;
   height: auto;
+  background-color: lightgrey;
   padding: 2rem 4.5rem;
   display: flex;
+  flex-wrap: wrap;
 }
 
-.software, .Computerart, .design {
+.software, .Computerart, .design, .data, .business, .marketing {
   background-color: white;
 }
 /*footer {
