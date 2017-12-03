@@ -1,3 +1,5 @@
+/* Common Style*/
+
 html {
   font-size: 16px;
   margin: 0;
@@ -268,18 +270,7 @@ header .signinarea {
 .exhibit {
   width: 100%;
   display: inline-flex;
-  background: yellow;
 }
-
-/*.exhibita{
-  width: 60%;
-  display: inline-flex;
-  background-color: yellow;
-  padding-top: 2rem;
-  padding-right: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 1.5rem;
-}*/
 
 video {
   width: 100%;
@@ -289,13 +280,20 @@ video {
 .video {
   width: 60%;
   text-align: left;
-  background-color: red;
   padding-top: 2rem;
   padding-right: 1.5rem;
   padding-bottom: 1.5rem;
   padding-left: 1.5rem;
 }
 
+.video h2 {
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.video p {
+  font-size: 1.5rem;
+}
 .exhibitb {
   width: 40%;
   height: auto;
@@ -308,7 +306,6 @@ video {
   height: auto;
   padding-left: 1.5rem;
   display: inline-flex;
-  background-color: yellow;
   text-align: left;
 }
 
@@ -319,7 +316,6 @@ video {
 .prototype {
   width: 65%;
   justify-content:center;
-  background-color: white;
 }
 
 .prototype h3 {
@@ -330,8 +326,37 @@ video {
 .prototype p {
   font-size: 1.5rem;
 }
-/*footer {
+
+/*footer Section*/
+footer {
   width: 100%;
-  height 64px;
-  background-color: green;
-}*/
+  height: 64px;
+  background-color: white;
+  display: flex;
+}
+
+.copyright {
+  width: auto;
+  height: 32px;
+  font-size: 1.5rem;
+  margin-top: 16px;
+  margin-right: auto;
+  margin-left: 24px;
+  align-items: center;
+  display: inline-flex;
+}
+
+.terms {
+  width: auto;
+  height: 32px;
+  font-size: 1.5rem;
+  margin-top: 16px;
+  margin-right: 24px;
+  margin-left: auto;
+  align-items: center;
+  display: inline-flex;
+}
+
+.terms span {
+  padding-right: 16px;
+}
