@@ -38,10 +38,12 @@ header .content {
 
 #bold {
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
 #grey {
   color: #7A7A7A;
+  font-size: 1.5rem;
 }
 
 header .content img {
@@ -55,6 +57,7 @@ header .signinarea {
 	margin-left: auto;
   align-items: center;
   display: inline-flex;
+  font-size: 1.5rem;
 }
 
 .signinarea span {
@@ -244,6 +247,88 @@ header .signinarea {
  }
 .software, .computerart, .design, .data, .business, .marketing {
   background-color: white;
+}
+
+/* Thesis Section*/
+.thesis {
+  width: 100%;
+  height: auto;
+  background-color: lightblue;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  text-align: center;
+}
+
+.thesis h1 {
+  padding-top: 1.5rem;
+  font-size: 2rem;
+}
+
+.exhibit {
+  width: 100%;
+  display: inline-flex;
+  background: yellow;
+}
+
+/*.exhibita{
+  width: 60%;
+  display: inline-flex;
+  background-color: yellow;
+  padding-top: 2rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}*/
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.video {
+  width: 60%;
+  text-align: left;
+  background-color: red;
+  padding-top: 2rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.exhibitb {
+  width: 40%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.fisma{
+  width: auto;
+  height: auto;
+  padding-left: 1.5rem;
+  display: inline-flex;
+  background-color: yellow;
+  text-align: left;
+}
+
+#thesis {
+  padding: 1rem;
+}
+
+.prototype {
+  width: 65%;
+  justify-content:center;
+  background-color: white;
+}
+
+.prototype h3 {
+  font-size: 2.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.prototype p {
+  font-size: 1.5rem;
 }
 /*footer {
   width: 100%;
