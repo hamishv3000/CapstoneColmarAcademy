@@ -66,6 +66,23 @@ header .signinarea {
   padding-right: 16px;
 }
 
+.mobileheader {
+  display: none;
+}
+
+@media screen and (max-width: 710px) {
+header .content, header .signinarea {
+    display: none;
+  }
+header .mobileheader {
+    width: 100%;
+    padding: 1rem;
+    display: inherit;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+  }
+}
 /* learn section*/
 
 .learn {
@@ -77,10 +94,10 @@ header .signinarea {
 .student {
 	width: 60%;
 	height: auto;
-	margin-top: 32px;
-	margin-right:24px;
-	margin-bottom:32px;
-	margin-left: 24px;
+	padding-top: 32px;
+	padding-right:24px;
+	padding-bottom:32px;
+	padding-left: 24px;
 }
 
 .start {
@@ -112,6 +129,32 @@ header .signinarea {
   text-align: center;
 }
 
+@media screen and (max-width: 710px){
+  section {
+    flex-direction: column;
+  }
+  .student {
+    width: 100%;
+    height: auto;
+    padding-left: 0px;
+    padding-top: 0px;
+    justify-content: space-around;
+  }
+
+  .student img{
+    width: 100%;
+    height: auto;
+  }
+  .start h2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+  }
+  .here {
+    margin-top: 24px;
+    margin-bottom: 32px;
+  }
+}
 /* University Section*/
 .uni {
 	width:100%;
@@ -198,6 +241,38 @@ header .signinarea {
   display: flex;
 }
 
+@media screen and (max-width: 710px){
+  .practising {
+    display: none;
+  }
+   .information {
+     width: 100%;
+     margin-top: 0px;
+     margin-bottom: 0px;
+
+   }
+  .orientation, .campus, .guest {
+    width: 100%;
+    height: auto;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-right: 16px;
+    flex-direction: column;
+  }
+  #information1, #information2 {
+    width: 100%;
+    height: 300px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+  .info {
+    width: 100%;
+    padding-top: 64px;
+    padding-bottom: 64px;
+ }
+}
+
 /* Courses Section */
 .courses {
   width:100%;
@@ -251,6 +326,22 @@ header .signinarea {
   background-color: white;
 }
 
+@media screen and (max-width: 710px) {
+  .coursetype {
+    flex-direction: column;
+  }
+  .seimg, .caimg, .dimg, .daimg, .bimg, .mimg {
+    display: none;
+  }
+
+  #courses, #type {
+    display: none;
+  }
+
+  #coursetype {
+    
+  }
+}
 /* Thesis Section*/
 .thesis {
   width: 100%;
