@@ -7,7 +7,6 @@ html {
   border: 0;
   font-size: 100%;
   font: inherit;
-  overflow: scroll;
 }
 
 body {
@@ -15,6 +14,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  overflow: scroll;
 }
 
 a {
@@ -69,7 +69,7 @@ header .signinarea {
 .mobileheader {
   display: none;
 }
-
+/* Media Header */
 @media screen and (max-width: 710px) {
 header .content, header .signinarea {
     display: none;
@@ -128,7 +128,7 @@ header .mobileheader {
   color: #F3F5F5;
   text-align: center;
 }
-
+/* learn Media section*/
 @media screen and (max-width: 710px){
   section {
     flex-direction: column;
@@ -144,6 +144,12 @@ header .mobileheader {
   .student img{
     width: 100%;
     height: auto;
+  }
+  .start{
+    width: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
   }
   .start h2 {
     padding-top: 2rem;
@@ -240,7 +246,7 @@ header .mobileheader {
   height: auto;
   display: flex;
 }
-
+/* University Media Section*/
 @media screen and (max-width: 710px){
   .practising {
     display: none;
@@ -325,7 +331,7 @@ header .mobileheader {
 .software, .computerart, .design, .data, .business, .marketing {
   background-color: white;
 }
-
+/* Courses Media Section */
 @media screen and (max-width: 710px) {
   .coursetype {
     flex-direction: column;
@@ -333,13 +339,27 @@ header .mobileheader {
   .seimg, .caimg, .dimg, .daimg, .bimg, .mimg {
     display: none;
   }
+  .courses, .coursetype, .software, .computerart, .design, .data, .business, .marketing{
+    background-color: lightblue;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 
   #courses, #type {
     display: none;
   }
 
+  .software {
+    background:
+  }
   #coursetype {
-    
+    background-color: lightgrey;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
   }
 }
 /* Thesis Section*/
@@ -417,7 +437,19 @@ video {
 .prototype p {
   font-size: 1.5rem;
 }
-
+/* Thesis Media Section*/
+@media screen and (max-width: 710px){
+  .exhibitb, .video h2, .video p {
+    display: none;
+  }
+  .video {
+    width: 100%;
+    padding-left: 0rem;
+    padding-top: 1rem;
+    padding-right: 0rem;
+    padding-bottom: 0rem;
+  }
+}
 /*footer Section*/
 footer {
   width: 100%;
@@ -450,4 +482,11 @@ footer {
 
 .terms span {
   padding-right: 16px;
+}
+
+/*footer media section*/
+@media screen and (max-width: 710px){
+  .terms{
+    display: none;
+  }
 }
